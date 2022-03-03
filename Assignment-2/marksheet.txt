@@ -1,0 +1,30 @@
+void main() {
+
+  var marks = 89;
+  
+  if(marks >= 90)
+  {
+    print("Your Grade is A-one");
+  }
+  else if(marks >= 80)
+  {
+    print("Your Grade is A");
+  }
+  else if(marks >= 70)
+  {
+    print("Your Grade is B");
+  }
+  else if(marks >= 60)
+  {
+    print("Your Grade is C");
+  }
+  else if(marks >= 50)
+  {
+    print("Your Grade is D");
+  }
+  else
+  {
+    print("Fail");
+  }
+  
+}
